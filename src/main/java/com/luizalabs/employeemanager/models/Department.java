@@ -2,8 +2,10 @@ package com.luizalabs.employeemanager.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
-@Entity(name = "department")
+@Entity
+@Table(name = "department")
 public class Department extends DomainModel<Department> {
 
     @Column(nullable = false)

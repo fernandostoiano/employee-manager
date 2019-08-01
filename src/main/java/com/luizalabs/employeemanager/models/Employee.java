@@ -1,11 +1,9 @@
 package com.luizalabs.employeemanager.models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
-@Entity(name = "employee")
+@Entity
+@Table(name = "employee")
 public class Employee extends DomainModel<Employee> {
 
     @Column(nullable = false)
