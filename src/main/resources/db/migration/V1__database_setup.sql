@@ -1,6 +1,3 @@
-DROP SCHEMA IF EXISTS `employee_manager`;
-CREATE SCHEMA `employee_manager` COLLATE utf8_general_ci;
-
 CREATE TABLE `department` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `description` varchar(100) NOT NULL,
