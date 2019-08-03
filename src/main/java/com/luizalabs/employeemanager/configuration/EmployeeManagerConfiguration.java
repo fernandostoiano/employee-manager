@@ -5,10 +5,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@Configuration
-@EntityScan("com.luizalabs.employeemanager")
-@EnableJpaRepositories("com.luizalabs.employeemanager")
-@EnableTransactionManagement
+//@Configuration
+//@EntityScan("com.luizalabs.employeemanager")
+//@EnableJpaRepositories("com.luizalabs.employeemanager")
+//@EnableTransactionManagement
 public class EmployeeManagerConfiguration {
 
 }
